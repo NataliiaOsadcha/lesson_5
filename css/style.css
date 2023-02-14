@@ -1,0 +1,122 @@
+@import url('reset.css');
+
+/* Wrapper */
+.wrapper{ 
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 400px;
+    background: url('../images/fudzi.jpg') }
+
+.wrapper > div{ 
+    border: 12px solid darkgray;}
+div.main{ 
+    background-color: white; 
+    border-top: 2px solid #917bab}
+
+h1{ 
+    color: #a4a3cb; 
+    font-size: 40px; 
+    text-align:center; 
+    padding: 24px 0; }
+
+.link_to{ 
+    text-align: center; 
+    margin-bottom: 88px;}
+
+.link_to a{
+        text-decoration: none;
+        color: darkorchid;
+        font-size: 20px;
+        font-style: oblique;}
+
+/* Items */
+/* 01 */
+.link_to ~ div{
+    width: 200px;
+    margin-left: 240px;
+}
+
+div.item_general_right{ 
+    margin-left: auto; 
+    margin-right: 240px;}
+
+.item_img{
+    border:solid 2px #917bab ; }
+
+h2{ 
+    color:#917bab; 
+    margin: 16px 0 4px 64px;}
+
+.item_text{
+    color: dimgrey; 
+    text-align:justify ;}
+
+.item_first_letter{ 
+    color: #917bab; 
+    font-size: 20px; 
+    font-style: oblique;}
+
+.item_text + p{ 
+    margin-top: 12px; 
+    padding-top: 12px; 
+    border-top: dimgray solid 1px; }
+
+/* TUR 1 page */
+
+div.main_page_tur{ 
+    background-color: white; 
+    border-top: 2px solid #917bab;
+    text-align: center;
+    padding: 88px 0;}
+
+.item_text_tur{ 
+    color: dimgrey; 
+    width: 800px; 
+    text-align:justify; 
+    margin-left: auto; 
+    margin-right: auto; }
+
+.item_text_tur + p{
+    margin-top: 40px;}
+
+.link_to_main_page{ 
+    margin: 44px 0 88px 0;}
+
+.link_to_main_page a{
+    text-decoration: none;
+    color: darkorchid;
+    font-size: 20px;
+    font-style: oblique;
+}
+/* TABLE */
+table{
+    margin: 0 auto;
+}
+table, tr, td{
+    border: 2px solid darkorchid
+}
+.table_general td{
+    width: 50px;
+    height: 50px;
+}
+.tab_gen_td_color_1{
+    background: gray;
+}
+.tab_gen_td_color_2{
+    background: #917bab;
+}
+.tab_gen_td_color_3{
+    background: darkorchid;
+}
+.tab_gen_td_color_4{
+    background: rgb(74, 4, 109);
+}
+.tab_gen_td_color_5{
+    background: rgb(63, 29, 213);
+}
+.tab_gen_td_color_6{
+    background: rgb(225, 99, 139);
+}
+.link_to.link_pages{
+    margin: 88px auto;
+}
